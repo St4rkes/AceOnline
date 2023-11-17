@@ -1,0 +1,47 @@
+{
+  "name": "aceonline-framebreak",
+  "description": "AceOnline std-weapon framebreaks calculation",
+  "main": "dist/fb.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "test": "jest",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronthto/ao-framebreak.git"
+  },
+  "keywords": [
+    "aceonline",
+    "framebreak",
+    "acecalcs",
+    "airrivals",
+    "sco"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kronthto/ao-framebreak/issues"
+  },
+  "homepage": "https://github.com/kronthto/ao-framebreak",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@vue/cli-service": "^5.0.8",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^23.5.0",
+    "vue-loader": "^17.3.1"
+  },
+  "author": {
+    "name": "Tobias Kronthaler",
+    "url": "https://github.com/kronthto"
+  },
+  "version": "1.1.0",
+  "dependencies": {
+    "aceonline-framebreak": "^1.1.0",
+    "vue": "^2.6.14"
+  }
+}
