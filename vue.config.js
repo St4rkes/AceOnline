@@ -1,10 +1,11 @@
-// vue.config.js
+
 module.exports = {
     // Configurações específicas do Vue CLI
     // Consulte a documentação para mais opções: https://cli.vuejs.org/config/#vue-config-js
   
     // Define o caminho relativo para os assets quando a aplicação é construída
-    publicPath: process.env.NODE_ENV === 'production' ? '/SEU_REPOSITORIO/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/AceOnline/' : '/',
+    outputDir: 'docs',
   
     // Configuração do servidor de desenvolvimento
     devServer: {
